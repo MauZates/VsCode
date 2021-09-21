@@ -20,8 +20,18 @@ Comandos Cli
 Segundo o Key Bindings, no windows você usa Shift + Alt + F
 
 --Comando Git
-Pegar todas as branchs > git fetch
-Listar as Branch > git branch -a
-Deletar uma branch local > git branch -d nome-da-branch
-Deletar uma branch remota > git push origin --delete CursoEfCore
+Pegar todas as branchs 
+	> git fetch
+Criar Branch
+	> git checkout -b "Nome Da Branch"
 
+Listar as Branch 
+	> git branch -a
+Deletar uma branch local 
+	> git branch -d "Nome Da Branch"
+Deletar uma branch remota 
+	> git push origin --delete "Nome Da Branch"
+Adiciona um arquivo 
+	> git add .
+Realiza o Commit 
+	> git commit -am "Descrição do Commit"
