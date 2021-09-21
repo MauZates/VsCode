@@ -24,7 +24,6 @@ Pegar todas as branchs
 	> git fetch
 Criar Branch
 	> git checkout -b "Nome Da Branch"
-
 Listar as Branch 
 	> git branch -a
 Deletar uma branch local 
